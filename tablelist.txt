@@ -1,0 +1,24 @@
+Create Database BankingData:
+
+use BankingData:
+
+create table actypeTab
+(actypeName varchar(20),
+acdetails varchar(50),
+facility varchar(250)
+minbal numeric(6));
+
+Create table CustAcTab
+(acno numeric(10),
+pword varchar(20),
+acName varchar(50),
+MobileNo numeric(10),
+email varchar(50));
+
+Create table transTab
+(tranNo	numeric(4),
+tranDate date,
+acNO numeric(10),
+dbAmt numeric(10),
+crAmt numeric(10),
+tranDetails varchar(50),
